@@ -1,0 +1,29 @@
+git clone <url> -> to download or copy or clone the repository
+
+git add hello.html - to tell git to take the snapshot when commit 
+git commit -m "message" -> saves the snapshot 
+git status -> tells what happening inside the repository
+
+git push -> changes push into github
+
+git commit -am "message" -> shorthand for git add and commit a-> all
+
+git pull ->copy newer version on github to our local machine
+
+git log -> keep track of all of the changes or commit
+
+commit b87fd39942707e32dff989db3f851028d52d991c (HEAD -> main, origin/main)
+Author: Sarthak9149 <sarthakbhandari757@gmail.com>
+Date:   Sun Feb 23 23:49:57 2025 +0530
+
+    show image
+
+git reset --hard <b87fd39942707e32dff989db3f851028d52d991c> -> to get the older version of the repository
+
+git reset --hard origin/master -> current version of repository to reset it back to whatever on github 
+
+git branch  -> show all the braches and current working branch
+git checkout -b <filename> -> switch to new branch
+
+git mv oldname newname
+

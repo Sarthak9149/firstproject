@@ -1,0 +1,106 @@
+padding-inline -> add padding to left and right
+padding-inline-start -> add padding to left
+padding-inline-end -> add padding to right
+padding-block -> add padding to top and bottom
+
+padding: 20px 40px 60px 80px;  top right bottom left start from top then go clockwise
+
+borders properties
+
+border: solid color 30px,  order doesn't matter
+border-style: solid;  dotted grove
+border-color:
+padding:
+background-color:
+border-inline -> border goes only on left and right
+border-block -> top and bottom
+border-block-start: solid
+border-block-end-width: 100px;
+
+-------------------------------------------------------
+padding adds empty space with your bg color
+margin adds empty space without bg color 
+
+-----------------------------------------------------
+Margin properties
+
+
+margin:40px
+
+* {
+    box-sizing: border-box;  star means to select every element
+}
+
+. {      class
+    background-color: red;
+}
+
+# {    id
+    
+}
+
+
+div - block level element
+span -> like strong but has no styling
+
+a:visited {
+    for anchor tags to change color after visiting
+}
+
+a:hover {
+    color: pink
+}
+
+../ to go back in a directory
+../.. to go 2 times back
+
+background-image: url('path')
+background-repeat: repeat-y    or no-repeat
+
+background-size: 200px;  [cover, contain]
+background-position: bottom;  [top,  top right, 10px 20px, bottom left]
+
+.teal-bg strong {
+    descedant selectors
+}
+-----------------------------------------------------
+property which comes at last is applied in style
+h1 {
+    color: blue;
+}
+h1{
+    color: red;     red will be apply
+}
+-----------------------------------------------------
+specificity -> id > class > tags
+polypane ->website to calculate specificity
+-----------------------------------------
+List Style
+
+ol {
+    color: red:
+    list-style: upper-roman; upper-latin
+    list-style-position: outside;      or inside
+}
+li::marker {
+    color: red
+    content: "";  replace the bullet points with ""
+}
+ -----------------------------------------------------------
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+---------------------------------------------------------------------
+two column layout
+
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}                          fr units only works with grid columns and rows
+
+
+
+
+
